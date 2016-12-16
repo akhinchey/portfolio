@@ -27,13 +27,9 @@
 	p {
 		padding: 0;
 		margin: 0;
-		font-size: 0.9em;
+		font-size: 1.4em;
 		line-height: 190%;
 	}
-
-/*	p.toptext {
-		font-size: 14px;
-	}*/
 
 	figure {
 		font-size: 11px;
@@ -42,7 +38,7 @@
 		margin-left: 0;
 	}
 
-	table.port {
+	.port {
 		margin: auto;
 		padding: 30px;
 		border-spacing: 20px;
@@ -55,15 +51,28 @@
 		padding-bottom: 50px;
 	}
 
+	.project {
+		padding-top: 30px;
+	}
+
 	.thumbnail {
 		border: 1px solid #CCC;
 		position: relative;
+		vertical-align: top;
 		background-color: grey;
+		width: 30%;
+		display: inline-block;
 	}
 
-/*	.art img {
-		width: 200px;
-	}*/
+	.description {
+		width: 60%;
+    margin-left: 5%;
+		display: inline-block;
+	}
+
+	.thumbnail img {
+		width: 100%;
+	}
 
 	.art-portfolio {
 		padding: 10%;
@@ -93,3 +102,19 @@
 		padding-top: 10px;
 	}
 
+
+@media only screen and (max-width: 1000px) {
+   .description {
+   	display: block;
+   	width: 100%;
+   	margin: 0;
+   }
+
+   .thumbnail {
+   	width: 100%;
+   }
+
+   .port {
+   	width: 90%;
+   }
+}
