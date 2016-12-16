@@ -1,0 +1,95 @@
+	body {
+		font: 10px arial;
+		background-color: #CCC;
+		color: #696969;
+		margin: 20px;
+	}
+
+	hr {
+		border-top: 1px solid;
+		border-bottom: 0;
+	}
+
+	a {
+		color: #ff7a29;
+		text-decoration: none;
+	}
+
+	h1 {
+		font-size: 22px;
+		letter-spacing: 7px;
+		margin: 0;
+		text-transform: uppercase;
+
+		padding-bottom: 10px;
+	}
+
+	p {
+		padding: 0;
+		margin: 0;
+		font-size: 0.9em;
+		line-height: 190%;
+	}
+
+/*	p.toptext {
+		font-size: 14px;
+	}*/
+
+	figure {
+		font-size: 11px;
+		margin-top: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	table.port {
+		margin: auto;
+		padding: 30px;
+		border-spacing: 20px;
+		width: 70%;
+		background-color: #FFF;
+		box-shadow: 5px 5px 5px #888888;
+	}
+
+	tr.spaceUnder > td {
+		padding-bottom: 50px;
+	}
+
+	.thumbnail {
+		border: 1px solid #CCC;
+		position: relative;
+		background-color: grey;
+	}
+
+/*	.art img {
+		width: 200px;
+	}*/
+
+	.art-portfolio {
+		padding: 10%;
+		width: 90%;
+	}
+
+	.caption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 8%;
+		display: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #FFF;
+	}
+
+	h2 {
+		font-size: 18px;
+		letter-spacing: 5px;
+	}
+
+	#footer {
+		width: 70%;
+		text-align: right;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+
