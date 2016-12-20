@@ -1,117 +1,116 @@
-	body {
-		font: 10px arial;
-		background-color: #CCC;
-		color: #696969;
-		margin: 20px;
-	}
 
-	hr {
-		border-top: 1px solid;
-		border-bottom: 0;
-	}
+body {
+	font: 10px arial;
+	background-color: #CCC;
+	color: #696969;
+	margin: 20px;
+}
 
-	a {
-		color: #ff7a29;
-		text-decoration: none;
-	}
+hr {
+	border-top: 1px solid;
+	border-bottom: 0;
+}
 
+a {
+	color: #ff7a29;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 4em;
+	letter-spacing: 7px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+
+h2 {
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 190%;
+}
+
+.port {
+	margin: auto;
+	padding: 40px;
+	border-spacing: 20px;
+	width: 70%;
+	background-color: #FFF;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.project {
+	padding-bottom: 50px;
+}
+
+.thumbnail {
+	border: 1px solid #CCC;
+	position: relative;
+	vertical-align: top;
+	background-color: grey;
+	width: 40%;
+	display: inline-block;
+}
+
+.description {
+	width: 50%;
+   margin-left: 5%;
+	display: inline-block;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+
+.caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 8%;
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+.section-header {
+	padding: 50px 0px;
+}
+
+#footer {
+	width: 70%;
+	text-align: right;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 850px) {
 	h1 {
-		font-size: 22px;
-		letter-spacing: 7px;
-		margin: 0;
-		text-transform: uppercase;
-		padding-bottom: 10px;
+		font-size: 3em;
 	}
-
-	p {
-		padding: 0;
-		margin: 0;
-		font-size: 1.5em;
-		line-height: 190%;
-	}
-
-	figure {
-		font-size: 11px;
-		margin-top: 0;
-		margin-right: 0;
-		margin-left: 0;
-	}
-
-	.port {
-		margin: auto;
-		padding: 40px;
-		border-spacing: 20px;
-		width: 70%;
-		background-color: #FFF;
-		box-shadow: 5px 5px 5px #888888;
-	}
-
-	.project {
-		padding-top: 40px;
-	}
-
-	.thumbnail {
-		border: 1px solid #CCC;
-		position: relative;
-		vertical-align: top;
-		background-color: grey;
-		width: 30%;
-		display: inline-block;
-	}
-
-	.description {
-		width: 60%;
-    margin-left: 5%;
-		display: inline-block;
-	}
-
-	.thumbnail img {
-		width: 100%;
-	}
-
-	.art-portfolio {
-		padding: 10%;
-		width: 90%;
-	}
-
-	.caption {
-		position: absolute;
-		top: 0;
-		left: 0;
-		padding: 8%;
-		display: none;
-		text-transform: uppercase;
-		font-weight: bold;
-		color: #FFF;
-		font-size: 1.5em;
-		line-height: 2em;
-	}
-
-	h2 {
-		font-size: 18px;
-		letter-spacing: 5px;
-	}
-
-	#footer {
-		width: 70%;
-		text-align: right;
-		margin: 0 auto;
-		padding-top: 10px;
-	}
-
-
-@media only screen and (max-width: 700px) {
    .description {
    	display: block;
    	width: 100%;
    	margin: 0;
    }
-
    .thumbnail {
    	width: 100%;
    }
-
    .port {
    	width: 80%;
    }
-}
+ }
